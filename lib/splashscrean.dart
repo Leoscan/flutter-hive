@@ -35,10 +35,10 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(
-              Icons.food_bank, // Substitua pelo ícone desejado
-              size: 64,
-              color: Colors.white,
+            Image.asset(
+              'assets/13450131-barra-modelo-de-logotipo-de-icone-de-ginasio-de-haltere-distintivo-de-ginasio-logotipo-de-fitness-vetor.jpg',
+              height: 100, // Você pode ajustar o tamanho conforme necessário
+              width: 100, // Você pode ajustar o tamanho conforme necessário
             ),
             SizedBox(height: 16),
             Text(
